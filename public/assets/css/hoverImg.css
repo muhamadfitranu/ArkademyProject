@@ -1,0 +1,12 @@
+.front-face, .back-face{
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	background: linear-gradient(rgba(0,0,0, .2), rgba(0,0,0, .2)) black;
+	background-size: cover;
+	background-position: center;
+	border-radius: 10px;
+	backface-visibility: hidden;
+	transform-style: preserve-3d;
+	transition: transform .7s cubic-bezier(.4, .2, .2, 1);
+}
